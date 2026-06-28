@@ -2,7 +2,7 @@
 
 I exported my own foodpanda order history and turned it into a full behavioral analytics project. I cleaned a genuinely messy real-world export, reverse-engineered a missing date field, and built an interactive Power BI dashboard to answer one question: **what does five years of food delivery data actually say about my habits?**
 
-![Dashboard Overview](assets/Overview & Time.png)
+![Dashboard Overview](assets/Overview_&_Time.png)
 
 ---
 
@@ -28,11 +28,11 @@ I exported my own foodpanda order history and turned it into a full behavioral a
 
 **Page 1, Overview & Time:** KPI summary, spend trend over 5 years, orders by weekday, orders by hour of day
 
-![Overview and Time](assets/Overview & Time.png)
+![Overview and Time](assets/Overview_&_Time.png)
 
 **Page 2, Loyalty & Preference:** Top restaurants by order count vs. by spend, year-over-year growth, cuisine mix
 
-![Loyalty and Preference](assets/Loyalty & Preference.png)
+![Loyalty and Preference](assets/Loyalty_&_Preference.png)
 
 ---
 
