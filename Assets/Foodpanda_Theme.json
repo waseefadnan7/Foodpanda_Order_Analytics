@@ -1,0 +1,23 @@
+{
+  "name": "Foodpanda Personal Analytics",
+  "dataColors": [
+    "#D70F64",
+    "#222222",
+    "#FF6B81",
+    "#7C7C7C",
+    "#9C0A47",
+    "#FFC2D1",
+    "#2BB673",
+    "#E85D4C"
+  ],
+  "background": "#FAFBFD",
+  "foreground": "#222222",
+  "tableAccent": "#D70F64",
+  "good": "#2BB673",
+  "neutral": "#FFC2D1",
+  "bad": "#E85D4C",
+  "maximum": "#D70F64",
+  "center": "#FF6B81",
+  "minimum": "#FAFBFD",
+  "null": "#7C7C7C"
+}
