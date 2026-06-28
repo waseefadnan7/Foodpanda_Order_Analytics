@@ -2,7 +2,7 @@
 
 I exported my own foodpanda order history and turned it into a full behavioral analytics project. I cleaned a genuinely messy real-world export, reverse-engineered a missing date field, and built an interactive Power BI dashboard to answer one question: **what does five years of food delivery data actually say about my habits?**
 
-![Dashboard Overview](assets/dashboard_overview.png)
+![Dashboard Overview](assets/Overview & Time.png)
 
 ---
 
@@ -28,11 +28,11 @@ I exported my own foodpanda order history and turned it into a full behavioral a
 
 **Page 1, Overview & Time:** KPI summary, spend trend over 5 years, orders by weekday, orders by hour of day
 
-![Overview and Time](assets/dashboard_overview.png)
+![Overview and Time](assets/Overview & Time.png)
 
 **Page 2, Loyalty & Preference:** Top restaurants by order count vs. by spend, year-over-year growth, cuisine mix
 
-![Loyalty and Preference](assets/dashboard_loyalty.png)
+![Loyalty and Preference](assets/Loyalty & Preference.png)
 
 ---
 
@@ -49,7 +49,7 @@ By checking every plausible year (2021 to 2026) against each row's weekday/month
 
 The result: a genuine 5-year time axis, recovered entirely from fields that were never meant to encode a year at all.
 
-Full methodology: [`docs/methodology.md`](docs/methodology.md)
+Full methodology: [`docs/methodology.md`](Docs/methodology.md)
 
 ---
 
@@ -60,25 +60,6 @@ Full methodology: [`docs/methodology.md`](docs/methodology.md)
 - Built a keyword-based cuisine classifier (Bengali/Desi, American/Fast Food, Italian/Pizza, Kabab/Grill, East Asian, etc.) mapped from the dataset's own actual menu items, not a generic external list
 - Standardized restaurant name casing and whitespace for accurate grouping
 - Built a dedicated Power BI Date table with proper weekday and month sorting for clean time-intelligence charts
-
----
-
-## 📁 Repo Structure
-
-```
-foodpanda-order-analytics/
-├── README.md
-├── data/
-│   └── foodpanda_orders_cleaned.xlsx     # cleaned dataset + cuisine mapping sheet
-├── powerbi/
-│   └── foodpanda_dashboard.pbix          # full interactive report
-├── assets/
-│   ├── dashboard_overview.png
-│   ├── dashboard_loyalty.png
-│   └── foodpanda_theme.json              # custom Power BI brand theme
-└── docs/
-    └── methodology.md                    # full data cleaning and year-recovery writeup
-```
 
 ---
 
@@ -94,8 +75,5 @@ foodpanda-order-analytics/
 ## 🔗 Links
 
 - 📝 LinkedIn post: *[link once published]*
-- 💼 Portfolio: *[coming soon]*
-
 ---
-
 *This is a personal data project using my own order history. It is not affiliated with or endorsed by foodpanda.*
